@@ -2,6 +2,8 @@
 
 Um jogo interativo da memória desenvolvido para o evento **CCIPRA 2023**, projetado para rodar em um telão touchscreen de 40 polegadas com o objetivo de divulgar e engajar o público nos próximos eventos.
 
+🎮 **[Jogar Agora](https://jogodamemoria.ccipra.com.br/)** 🎮
+
 ## 📋 Sobre o Projeto
 
 Este projeto foi criado como uma ferramenta de marketing interativo e entretenimento para o evento CCIPRA 2023. O jogo foi otimizado para funcionar em telas sensíveis ao toque de grande formato, oferecendo uma experiência imersiva e divertida para todos os visitantes.
@@ -57,6 +59,16 @@ jogo-da-memoria-ccipra/
    - Tempo decorrido
    - Classificação em estrelas
 
+## 📸 Screenshots
+
+### Tela Principal do Jogo
+
+![Tela 1](TELAS/1.png)
+
+### Modal de Vitória
+
+![Tela 2](TELAS/2.png)
+
 ## ⚙️ Principais Funções
 
 | Função | Descrição |
@@ -103,7 +115,7 @@ O jogo é totalmente responsivo e se adapta a diferentes tamanhos de tela:
 - Sem dependências externas - funciona com JavaScript puro
 - Totalmente personalizável (cores, imagens, número de pares)
 
-## 🎯 Objetivo do Evento
+## 🎯 Objetivo do Projeto
 
 Divulgar os próximos eventos do CCIPRA de forma interativa e memorável, proporcionando uma experiência imersiva que engaja os visitantes.
 
