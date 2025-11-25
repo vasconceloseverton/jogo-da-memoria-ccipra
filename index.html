@@ -1,0 +1,54 @@
+<!-- <!doctype html> -->
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>JOGO DA MEMÓRIA</title>
+    <meta name="description" content="">
+  
+<!--     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda"> -->
+    <link rel="stylesheet" href="style.css">
+  <!--   <link rel="stylesheet" href="css/responsive.css"> -->
+<div class="container">
+	<header class="header">
+		<h1>JOGO DA MEMÓRIA</h1>
+	</header>
+
+	<section class="score-panel">
+		<ul id="star-rating" class="star-rating">
+			<li class="star"><i class="fa fa-star"></i></li>
+			<li class="star"><i class="fa fa-star"></i></li>
+			<li class="star"><i class="fa fa-star"></i></li>
+		</ul>
+		<span class="moves-counter">0</span> Movimentos
+		<div class="timer-container">
+			<span class="timer"><i class="fa fa-hourglass-start"></i> Tempo: 00:00</span>
+		</div>
+		<div class="reset">
+			<button class="btn reset-btn">Reiniciar <i class="fa fa-repeat"></i></button>
+		</div>
+	</section>
+
+	<!-- Modal -->
+	<section class="win-game-modal">
+		<div id="modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h2>Parabéns!</h2>
+				<p>Você ganhou o jogo e encontrou todos os 5 pares.</p>
+				<img class="modal-img" src="/img/Vault-Boy-Thumb-Up.jpg?raw=true" alt="CCIPRA 2023">
+				<button class="btn play-again-btn">Jogar Novamente?</button>
+			</div>
+		</div>
+	</section>
+
+	<ul class="deck"></ul>
+</div>
+
+<footer class="footer">
+
+</footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
